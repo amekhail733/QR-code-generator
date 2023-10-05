@@ -1,0 +1,14 @@
+header{
+    padding: 10px;
+    background-color: red;
+    transition: loadSwipe 2s linear;
+}
+
+@keyframes loadSwipe{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
